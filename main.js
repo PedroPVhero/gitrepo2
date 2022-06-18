@@ -25,7 +25,7 @@ function doMath(s){
 			document.write(pow);
 			break;
 		case default:
-			document.append("Erro");
+			document.write("Erro");
 			break
 	}
 }
