@@ -1,5 +1,9 @@
-var input1 = document.getElementById("input1").value();
-var input2 = document.getElementById("input2").value();
-var soma = input1 + input2;
-var txt = document.createTextNode(soma)
-document.getElementById("h3").appendChild(txt);
+function doMath(){
+	// Capture the entered values of two input boxes
+        var my_input1 = document.getElementById('my_input1').value;
+        var my_input2 = document.getElementById('my_input2').value;
+
+        // Add them together and display
+        var sum = parseInt(my_input1) + parseInt(my_input2);
+        document.write(sum);
+}
