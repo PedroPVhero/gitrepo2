@@ -24,8 +24,5 @@ function doMath(s){
 			var pow = Math.pow(parseInt(my_input1), parseInt(my_input2));
 			document.write(pow);
 			break;
-		case default:
-			document.write("Erro");
-			break
 	}
 }
